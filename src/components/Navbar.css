@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #183358;
+    --secondary-color: #d8c11a;
+    --light-color: #f4f4f4;
+    --dark-color: #333;
+}
+
+.Navbar {
+    background-color: var(--dark-color);
+    width: 100vw;
+}
+
+.Navbar a {
+    color: var(--light-color);
+    text-decoration: none;
+    text-align: center;
+    color: var(--light-color);
+    float: left;
+    padding: 15px 15px;
+}
+
+.Navbar a:hover {
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+
+.Navbar a.active {
+    background: var(--secondary-color);
+    color: var(--light-color);
+}

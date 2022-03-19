@@ -1,0 +1,92 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .LoginArea {
+     width: 500px;
+     height: 500px;
+     background: #f2f2f2;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 15vh auto;
+ }
+ 
+ .LoginArea input {
+     background: var(--light-color);
+     height: 3rem;
+     width: 450px;
+     margin: .5rem auto;
+     border: 1px solid #d3d3d3;
+     outline: none;
+ }
+ 
+ .btn {
+     width: 450px;
+     height: 3rem;
+     line-height: 3rem;
+     margin: 0 auto;
+     border-radius: 0;
+     background: #ddd;
+     margin-bottom: 1rem;
+ }
+ 
+ .btn:hover {
+     background: var(--primary-color);
+     color: var(--light-color);
+     cursor: pointer;
+ }
+ 
+ .LoginArea a {
+     text-decoration: none;
+     color: #1974D2;
+ }
+ 
+ .LoginArea a:hover {
+     text-decoration: underline;
+ }
+ 
+ .LoginArea form {
+     margin: 1rem;
+ }
+ 
+ @media screen and (max-width:768px) {
+     /* .LoginArea form {
+         margin: 1rem 0;
+     }
+     .LoginArea {
+         width: 80vw;
+     }
+     .LoginArea input {
+         width: 90%;
+     }
+     .LoginArea .btn {
+         width: 90%;
+     }
+     .topnav {
+         display: flex;
+         flex-direction: column;
+         background: red !important;
+     }
+     .topnav a {
+         width: 100%;
+         padding: 1rem 0;
+     } */
+     .Navbar {
+         display: flex;
+         flex-direction: column;
+     }
+     .LoginArea {
+         width: 80vw;
+     }
+     .LoginArea form {
+         width: 100%;
+     }
+     .LoginArea input,
+     .LoginArea .btn {
+         width: 90%;
+     }
+ }
