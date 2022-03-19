@@ -6,9 +6,11 @@ const Navbar = () => {
 
     return (
             <div className='Navbar'>
-                <a href="">Início</a>
+                <a href="" class='active'>Início</a>
                 <a href="">Sobre Nós</a>
-                <a href="" className='active'>Login </a>
+                <a href="">Blockchain</a>
+                <a href="">NFT</a>
+                <a href="">Solidity</a>
             </div>
     )
 }
