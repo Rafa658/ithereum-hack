@@ -1,8 +1,8 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
-
-import LoginArea from './components/LoginArea'
-import Navbar from './components/Navbar'
+import { Router, Route, Routes, Link } from 'react-router-dom';
+import LoginArea from './components/LoginArea';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from './components/navbar';
 
 function App() {
   return (
